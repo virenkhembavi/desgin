@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  /* box-sizing: border-box; */
-}
 
 body {
   margin: 0 !important;
@@ -99,7 +96,7 @@ body {
 }
 
 .scroll-section {
-  height: 350px;
+  height: 335px;
   overflow-y: scroll;
 }
 
@@ -118,7 +115,7 @@ body {
 .dishes-product {
   padding: 10px !important;
   /* background: #000; */
-  height: 400px;
+  height: 350px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
