@@ -82,24 +82,24 @@ export default function Dashboard() {
                         <img src='./bar-graph.png' alt='graph' className='w-100 object-fit-contain bg-card rounded-1 shadow-md p-3' />
                     </div>
                     <div className='col-lg-4 col-md-12 col-sm-12 col bg-card rounded-1 shadow-md '>
-                        <div className='col p-5 d-flex justify-content-center flex-column gap-5'>
-                            <div className='row-sm-3 d-flex justify-content-between align-items-center'>
+                        <div className='col-lg-12 gap-5 dishes-product'>
+                            <div className='row-sm-3 dishes-section'>
                                 <div className='d-flex justify-content-evenly align-items-center'>
-                                    <img src='./goal.png' alt='graph' className='w-70 h-70' />
+                                    <img src='./goal.png' alt='graph' className='dish-image' />
                                     <span>Goals</span>
                                 </div>
                                 <img src='./arrow.png' alt='graph' className='object-fit-contain' />
                             </div>
-                            <div className='row-sm-5 d-flex justify-content-between align-items-center'>
+                            <div className='row-sm-5 dishes-section'>
                                 <div className='d-flex justify-content-evenly align-items-center'>
-                                    <img src='./dishes.png' alt='graph' className='w-25 h-25' />
+                                    <img src='./dish.png' alt='graph' className='dish-image' />
                                     <span>Popular Dishes</span>
                                 </div>
                                 <img src='./arrow.png' alt='graph' className='object-fit-contain' />
                             </div>
-                            <div className='row-sm-4 d-flex justify-content-between align-items-center'>
+                            <div className='row-sm-4 dishes-section'>
                                 <div className='d-flex justify-content-evenly align-items-center'>
-                                    <img src='./menu.png' alt='graph' className='w-25 h-25' />
+                                    <img src='./burger.png' alt='graph' className='dish-image' />
                                     <span>Menus</span>
                                 </div>
                                 <img src='./arrow.png' alt='graph' className='object-fit-contain' />
@@ -164,8 +164,8 @@ export default function Dashboard() {
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-12 col-sm-12 scroll-section p-1'>
-                        <h2 class="text-2xl text-foreground mb-4">Customer's Feedback</h2>
                         <div class="bg-card p-3 rounded-lg shadow-md">
+                            <h2 class="text-2xl text-foreground mb-4">Customer's Feedback</h2>
                             <div class="mb-6">
                                 <div class="flex items-center mb-2">
                                     <img aria-hidden="true" alt="user-avatar" src="https://openui.fly.dev/openui/24x24.svg?text=👤" class="w-8 h-8 rounded-full mr-2" />
